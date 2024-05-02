@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    text-decoration: none;
+}
+
+body{
+    background: rgb(30, 30, 30);
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    background: rgb(68, 148, 114);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 10px solid rgba(0, 0, 0, .1) ;
+}
+.header_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_textbox{
+    display: flex;
+    gap: 50px;
+}
+.header_link{
+    color: rgb(255, 255, 255);
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+}
+
+.header_link:hover{
+    transition: 0.2s ease-in-out;
+    transform: scale(1.3);
+}
+
+.hero {
+    background-image: url('./images/background.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.hero_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero_title{
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+font-size: 96px;
+font-weight: 400;
+line-height: 116px;
+width: 790px;
+height: 232px;
+margin-top: 280px;
+}
+.cards{
+    padding-top: 86px;
+    padding-bottom: 86px;
+}
+.cards_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cards_card{
+    width: 413px;
+height: 430px;
+background-color: rgb(68, 148, 114);;
+padding: 10px;
+border-radius: 15px;
+
+}
+.cards__textbox2{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 32px;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0%;
+text-align: left;
+}
+.cards_btn{
+    box-sizing: border-box;
+border: 10px solid rgb(255, 255, 255);
+border-radius: 15px;
+background: rgb(68, 148, 114);
+width: 288px;
+height: 72px;
+}
+
+.cards_btn:hover{
+    border-radius: 24px;
+    background: #2b5c43;
+    transition: 0.2s ease-in-out;
+    transform: scale(1.01);
+}
+
+.cards_btn2{
+    position: relative;
+    left: 200px;
+    width: 200px;
+    height: 50px;
+    top: -50px;
+}
+.cards__textbox3{
+    flex-wrap: wrap;
+}
